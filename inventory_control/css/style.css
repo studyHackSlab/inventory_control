@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* 色選択 */
+/* https://huey.design/ */
+
+* {
+    /* outline: 1px solid #3fb169; */
+}
+
+html {
+    font-size: 100%;
+    font-family: "Tsukimi Rounded", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: #e1e3f9;
+}
+
+header {
+    display: flex;
+    background-color: #3a4ab6;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+
+h1 {
+    padding: 0 2%;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+}
+
+ul {
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+
+li {
+    display: grid;
+    place-content: center;
+    list-style: none;
+    padding: 1%;
+    margin: 0;
+    width: 100%;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.content-item {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+}
+
+.content-item>section {
+    background-color: #FFFFFF;
+    width: 40%;
+    width: 400px;
+    padding: 2%;
+    margin: 2%;
+    border-bottom: 3px solid #3a4ab6;
+    border-radius: 5%;
+}
+
+section:hover {
+    background-color: #c4c8f5;
+    cursor: pointer;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.flex {
+    display: flex;
+}
