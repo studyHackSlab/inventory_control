@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>在庫管理</title>
+</head>
+
+<body>
+    <header>
+        <h1>入庫管理</h1>
+        <nav>
+            <ul>
+                <li><a href="inventory_management.html">在庫</a></li>
+                <li><a href="receiving_management.html">入庫</a></li>
+                <li><a href="issuing_management.html">出庫</a></li>
+                <li><a href="product_management.html">商品</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <div class="receiving_management flex">
+                <div class="flex">
+                    <label for="">商品</label>
+                    <select name="product">
+                        <option value="" hidden></option>
+                        <option value="">夢を叶える枕</option>
+                        <option value="">感情翻訳機</option>
+                        <option value="">記憶保存装置</option>
+                        <option value="">植物育成ライト</option>
+                        <option value="">パーソナルAIアシスタント</option>
+                        <option value="">ウェアラブル健康診断装置</option>
+                        <option value="">仮想現実体験装置</option>
+                        <option value="">ときめきクリーン</option>
+                        <option value="">ちょこっとリフレッシュ</option>
+                        <option value="">大地の恵み</option>
+                        <option value="">笑顔ごはん</option>
+                        <option value="">元気チャージ</option>
+                        <option value="">彩時</option>
+                    </select>
+                </div>
+                <div class="flex">
+                    <label for="">入庫数</label>
+                    <input type="number" min="0" name="" id="">
+                </div>
+                <input type="submit" value="登録">
+            </div>
+        </form>
+        <div id="receiving_management" class="flex">
+            <section>
+                <h2>処理内容</h2>
+                <h3>登録</h3>
+                <p>データベースへ、選択された商品の在庫数を入庫数分、加算登録する。</p>
+                <p>※更新日時を登録ボタンを押した日時に更新する。</p>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

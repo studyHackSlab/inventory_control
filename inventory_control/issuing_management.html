@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js">
+    </script>
+    <title>在庫管理</title>
+</head>
+
+<body>
+    <header>
+        <h1>出庫管理</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="inventory_management.html">在庫</a>
+                </li>
+                <li>
+                    <a href="receiving_management.html">入庫</a>
+                </li>
+                <li>
+                    <a href="issuing_management.html">出庫</a>
+                </li>
+                <li>
+                    <a href="product_management.html">商品</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="issuing_management">
+        <form action="">
+            <div class="flex">
+                <div class="flex">
+                    <label for="">商品</label>
+                    <select name="product">
+                        <option value="" hidden></option>
+                        <option value="">夢を叶える枕</option>
+                        <option value="">感情翻訳機</option>
+                        <option value="">記憶保存装置</option>
+                        <option value="">植物育成ライト</option>
+                        <option value="">パーソナルAIアシスタント</option>
+                        <option value="">ウェアラブル健康診断装置</option>
+                        <option value="">仮想現実体験装置</option>
+                        <option value="">ときめきクリーン</option>
+                        <option value="">ちょこっとリフレッシュ</option>
+                        <option value="">大地の恵み</option>
+                        <option value="">笑顔ごはん</option>
+                        <option value="">元気チャージ</option>
+                        <option value="">彩時</option>
+                    </select>
+                </div>
+                <div class="flex">
+                    <label for="">購入数</label>
+                    <input type="number" min="0" name="" id="">
+                </div>
+                <div class="flex">
+                    <label for="">購入者</label>
+                    <select name="user">
+                        <option value="" hidden></option>
+                        <option value="">生方 有吾</option>
+                        <option value="">中村 洸平</option>
+                        <option value="">鈴木 紀彰</option>
+                        <option value="">岩田 真知子</option>
+                        <option value="">太田 敏光</option>
+                        <option value="">平岩 敏夫</option>
+                        <option value="">黒瀬 崇宏</option>
+                        <option value="">今野 竜也</option>
+                        <option value="">森 真一</option>
+                        <option value="">北原 恵</option>
+                        <option value="">村岡 壮太</option>
+                        <option value="">岸下 彰</option>
+                        <option value="">長谷川 弘一</option>
+                        <option value="">長嶋 信夫</option>
+                        <option value="">岩崎 直美</option>
+                        <option value="">吉村 英介</option>
+                        <option value="">小林 幹雄</option>
+                        <option value="">松下 一樹</option>
+                        <option value="">内山 大輔</option>
+                        <option value="">中山 みどり</option>
+                        <option value="">村田 泰則</option>
+                        <option value="">山本 賢治</option>
+                        <option value="">森川 努</option>
+                        <option value="">石黒 佳代子</option>
+                        <option value="">金 明</option>
+                        <option value="">小野 慶子</option>
+                        <option value="">中嶋 純</option>
+                        <option value="">野澤 佑也</option>
+                        <option value="">船山 良太郎</option>
+                        <option value="">中西 みほ</option>
+                        <option value="">西尾 淳</option>
+                        <option value="">龍 篤史</option>
+                        <option value="">池内 由美子</option>
+                        <option value="">大崎 周平</option>
+                        <option value="">磯野 佑樹</option>
+                        <option value="">吉野 彰人</option>
+                        <option value="">小林 真二</option>
+                        <option value="">大島 直人</option>
+                        <option value="">横山 高志</option>
+                        <option value="">小野 涼</option>
+                        <option value="">横山 晶子</option>
+                        <option value="">濱中 啓介</option>
+                        <option value="">伊藤 勇</option>
+                        <option value="">鈴木 純</option>
+                        <option value="">池田 碧</option>
+                        <option value="">榎本 和義</option>
+                        <option value="">原田 一郎</option>
+                        <option value="">石原 みさき</option>
+                        <option value="">小針 恵</option>
+                        <option value="">田中 智子</option>
+                        <option value="">衛藤 まり子</option>
+                        <option value="">岡本 雅子</option>
+                        <option value="">金 隼人</option>
+                        <option value="">金澤 文彦</option>
+                        <option value="">湯山 雄一朗</option>
+                        <option value="">中澤 暁子</option>
+                        <option value="">尾崎 勇人</option>
+                        <option value="">堀井 隆二</option>
+                        <option value="">伊藤 礼子</option>
+                        <option value="">向井 千晶</option>
+                        <option value="">佐藤 元昭</option>
+                        <option value="">角井 俊雄</option>
+                        <option value="">藤 久美子</option>
+                        <option value="">臼井 秀治</option>
+                        <option value="">具志 陽子</option>
+                        <option value="">山下 英人</option>
+                        <option value="">荒金 純</option>
+                        <option value="">鬼丸 良太</option>
+                        <option value="">鈴木 優子</option>
+                        <option value="">笹井 淑子</option>
+                        <option value="">熊谷 亨</option>
+                        <option value="">瀬戸 慶治</option>
+                        <option value="">杉山 ともみ</option>
+                        <option value="">吉成 真浩</option>
+                        <option value="">日比野 貴子</option>
+                        <option value="">青柳 はじめ</option>
+                        <option value="">山崎 竜二</option>
+                        <option value="">松田 綾乃</option>
+                        <option value="">有田 由紀子</option>
+                        <option value="">須永 悠太</option>
+                        <option value="">元村 明子</option>
+                        <option value="">原田 隆行</option>
+                        <option value="">粟村 碧</option>
+                        <option value="">旭 裕介</option>
+                        <option value="">白濱 梓</option>
+                        <option value="">小林 知佳</option>
+                        <option value="">相澤 直子</option>
+                        <option value="">山本 宗男</option>
+                        <option value="">生田目 英樹</option>
+                        <option value="">大薮 梨恵</option>
+                        <option value="">細井 香織</option>
+                        <option value="">原口 佐知子</option>
+                        <option value="">笛田 美砂子</option>
+                        <option value="">久保木 彩乃</option>
+                        <option value="">大森 亜美</option>
+                        <option value="">益永 智洋</option>
+                        <option value="">柴田 渉</option>
+                        <option value="">氏家 剛志</option>
+                        <option value="">室井 千晶</option>
+                        <option value="">山田 真理子</option>
+                    </select>
+                </div>
+                <input type="submit" value="登録">
+            </div>
+        </form>
+        <div id="issuing_management" class="flex">
+            <section>
+                <h2>処理内容</h2>
+                <h3>登録</h3>
+                <p>データベースへ、選択された商品の在庫数を入庫数分、加算登録する。</p>
+                <p>※更新日時を登録ボタンを押した日時に更新する。</p>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
